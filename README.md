@@ -98,10 +98,10 @@
 
     if [ "$STATUS" = "active" ]; then
         MESSAGE="ONLINE"
-        echo "$TIMESTAMP - $SERVICE - $STATUS - $MESSAGE" >> /mnt/nfs/marcelo/online.log
+        echo "$TIMESTAMP - $SERVICE - $STATUS - $MESSAGE" >> /mnt/nfs/seu_nome/online.log
     else
         MESSAGE="OFFLINE"
-        echo "$TIMESTAMP - $SERVICE - $STATUS - $MESSAGE" >> /mnt/nfs/marcelo/offline.log
+        echo "$TIMESTAMP - $SERVICE - $STATUS - $MESSAGE" >> /mnt/nfs/seu_nome/offline.log
     fi
 
     ```
